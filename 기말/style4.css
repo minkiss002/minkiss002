@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*----------------------header*----------------------*/
+header {
+    width:100%;
+    height:80px;
+    background: #324b78;
+}
+
+
+/*----------------------container*----------------------*/
+#container {
+    display: flex;
+    width:100%;
+    height:calc(100vh - 80px);
+    background: #00994B;
+}
+.left {
+    width:40%;
+    background: #7ec8af;
+}
+.profile {
+    height:70%;
+    background: darkgreen;
+}
+.info {
+    height:15%;
+    background: #B72636;
+}
+.contact {
+    height:15%;
+    background: #76daa8;
+}
+.right {
+    width:60%;
+    background: #FA748D;
+}
+.edu {
+    height:20%;
+    background: #76daa8;
+}
+.work {
+    height:40%;
+    background: #8f8f91;
+}
+.tools {
+    height:20%;
+    background: #F96768;
+}
+.skills {
+    height:20%;
+    background: skyblue;
+}
+
+
+

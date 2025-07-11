@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*=====================header=====================*/
+header {
+    display: flex;
+    align-items: center;
+    width:100%;
+    height:80px;
+    background: red;
+}
+h1 {
+    width:20%;
+}
+.info {
+    display: flex;
+    width:80%;
+    height:100%;
+    background: #FA748D;
+}
+.summary {
+    width:50%;
+    background:skyblue;
+}
+.something {
+    width:50%;
+}
+
+
+/*=====================container=====================*/
+#container {
+    display: flex;
+    width:100%;
+    height:calc(100vh - 80px);
+    background:aquamarine;
+}
+.left {
+    width:40%;
+    background: #3434a1;
+}
+.education {
+    height:20%;
+    background: #FA748D;
+}
+.work {
+    height:80%;
+}
+.right {
+    width:60%;
+}
+.skills {
+    height:50%;
+}
+.tools {
+    height:50%;
+    background: #00994B;
+}

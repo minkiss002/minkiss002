@@ -1,0 +1,54 @@
+@charset "UTF-8";
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/********************header********************/
+header {
+    display: flex;
+    width:100%;
+    height:10vh;
+    background: #00994B;
+}
+.logo {
+    width:10%;
+    background: #324b78;
+}
+h1 {
+    width:80%;
+    background: #B72636;
+}
+.menu {
+    width:10%;
+    background: #7ec8af;
+}
+
+
+
+
+/********************container********************/
+#container {
+    width:100%;
+    height: 90vh;
+    background: #FA748D;
+}
+.visual {
+    height:70%;
+    background: #00994B;
+}
+.bottom {
+    display: flex;
+    height:30%;
+}
+.skills {
+    width:30%;
+}
+.chart {
+    width:40%;
+    background: #324b78;
+}
+.position {
+    width:30%;
+}
